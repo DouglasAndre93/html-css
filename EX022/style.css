@@ -1,0 +1,105 @@
+@font-face {
+    font-family: android;
+    src: url(fonts/Android.ttf) format('truetype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(126, 223, 126), darkgreen);
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    margin: auto 100px 20px 100px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px darkgreen;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.intro > h1{
+    font-family: android;
+    color: green;
+}
+
+h2 {
+    background-image: linear-gradient(to right, rgba(120, 221, 120, 0.418), white);
+    font-family: android;
+    color: green;
+    
+}
+
+#ending {
+    margin: 10px;
+    padding: 0px;
+    background-color: rgba(144, 238, 144, 0.336);
+    border-radius: 10px;
+}
+
+#ending > h3 {
+    background-color: green;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+#ending > p {
+    padding: 0px 0px 10px 20px;
+}
+
+.direita{
+    display: block;
+ 
+    margin-right: 10px;
+}
+
+.vidju{
+    width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+}

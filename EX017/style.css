@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Use apenas as medidas px e em, Norma W3C
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    16px tamanho padrão navegador
+    */
+}
+
+h1, h2 {
+    /* shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}

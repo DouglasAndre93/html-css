@@ -1,0 +1,20 @@
+@font-face {
+    font-family: texas;
+    src: url(fonts/TEXAT\ BOLD\ PERSONAL\ USE___.otf) format('opentype'); /*
+    url(fonts/TEXAT\ BOLD\ PERSONAL\ USE___.otf) format('opentype'); format('truetype') (Quando a fonte é no formato ttf, colocar desse jeito, animal velho!) 
+    */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1, h2 {
+    font-family: 'texas';
+    font-size: 3em;
+    font-weight: normal;
+}
