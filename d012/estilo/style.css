@@ -61,6 +61,8 @@ section.imagem {
     background-attachment: fixed;
     background-size: cover;
     min-height: 60vh;
+    background-position: right center;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 section.imagem p {
