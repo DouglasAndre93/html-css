@@ -43,7 +43,8 @@ header a:hover, footer a:hover {
 }
 
 section {
-    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 section p {
