@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (min-width: 768px) {
+    #burgo {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        border-radius: 10px; 
+    }
+
+    menu li {
+        display: inline-block;
+     
+    }
+
+    main {
+        max-width: 768px;
+    }
+}
+
+
+
